@@ -124,7 +124,8 @@ input, select, textarea {
 	strong, b {
 		color: #787878;
 		font-weight: 400;
-	}
+		
+	}d2155a
 
 	em, i {
 		font-style: italic;
@@ -141,6 +142,13 @@ input, select, textarea {
 		margin: 0 3 1em 0;
 	}
 
+	h2 {
+		color: #4bb091;
+		font-weight: 400;
+		line-height: 1em;
+		margin: 0 3 1em 0;
+	}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -149,11 +157,13 @@ input, select, textarea {
 	h1 {
 		font-size: 2.5em;
 		line-height: 2.5em;
+		font-weight: bold;
 	}
 
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -2622,9 +2632,11 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 15 0 2em 0;
 		}
-
+		/*Modificación mi nombre*/
 		#header strong, #header b {
 			color: #ffffff;
+			font-weight: bold;
+			font-size: 1.3em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
